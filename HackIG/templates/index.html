@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title> HackInsta </title>
+		<meta name="description" content="Download Instagram HD Photos with the help of the Flask Web App">
+	  <meta name="keywords" content="Download Instagram Photos online, download Instagram pictures, save instagram pictures from browser">
+		<link rel="icon" href="https://cdn3.iconfinder.com/data/icons/picons-social/57/78-instagram-128.png" type="image/x-icon">
+		<style type="text/css">
+			     #input{
+		            width: 100%;
+		            padding: 12px 20px;
+		            margin: 8px 0;
+		            display: inline-block;
+		            border: 1px solid #ccc;
+		            border-radius: 4px;
+		            box-sizing: border-box;
+		        }
+
+		        input[type=submit] {
+		            width: 100%;
+		            background-color: #4CAF50;
+		            color: white;
+		            padding: 14px 20px;
+		            margin: 8px 0;
+		            border: none;
+		            border-radius: 4px;
+		            cursor: pointer;
+		        }
+
+				.container{
+					text-align: center;
+					margin: 0 auto;
+					width: 500px;
+					padding-top: 20%;
+				}
+				a{
+				    text-decoration:none;
+
+				}
+
+		</style>
+	</head>
+	<body>
+		<div class="container">
+		<p><b>Download Instagram HD Photos (Full size): right click > save image </b></p>
+		<form action="" method="POST" id="vchrombie">
+			<input type="url" id="input" name="iurl" placeholder="Enter image's link, https://www.instagram.com/p/BZtAXk7H4AG/?taken-by=vchrombie" autocomplete="off" required >
+			<input type="submit" value="SUBMIT">
+		</form>
+		<p>Made with &hearts; by <a href="https://github.com/vchrombie">@vchrombie</a></p>
+		</div>
+		<script>
+		    mixpanel.track_forms("#vchrombie", "Created Account");
+		</script>
+	</body>
+</html>
