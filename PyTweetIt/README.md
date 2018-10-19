@@ -16,7 +16,7 @@ This repository consists of the files that are required to post a tweet from the
      $ pip install tweepy 
 
 
-#### Follow this Bog Post for detailed procedure :  [PyTweetIt](https://vchrombiediary.wordpress.com/2017/10/15/pytweetit/)
+#### Follow this Bog Post for detailed procedure :  [PyTweetIt](https://vchrombie.github.io/blog/tutorial/2017/10/15/pytweet/)
 
 All you have to do is 
 
